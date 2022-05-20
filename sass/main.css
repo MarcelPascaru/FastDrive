@@ -1,0 +1,14 @@
+body {
+  background: red;
+}
+body h1 {
+  color: yellow;
+  font-size: 48px;
+}
+
+.heading {
+  background-color: #000;
+}
+.heading-text {
+  color: red;
+}/*# sourceMappingURL=main.css.map */

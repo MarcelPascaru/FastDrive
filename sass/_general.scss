@@ -1,0 +1,18 @@
+body{
+    background: $--color-primary;
+
+
+    h1{
+        color: $--color-secondary;
+        font-size: 48px;
+    }
+
+}
+
+.heading {
+    background-color: #000;
+
+    &-text {
+        color: red;
+    }
+}
