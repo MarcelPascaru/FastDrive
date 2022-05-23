@@ -1,14 +1,79 @@
-body {
-  background: red;
-}
-body h1 {
-  color: yellow;
-  font-size: 48px;
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-.heading {
-  background-color: #000;
+.container {
+  margin: auto;
+  padding: 15px;
+  max-width: 1200px;
 }
-.heading-text {
-  color: red;
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-content a {
+  text-decoration: none;
+}
+header .header-content .logo-text {
+  font-family: "Kaushan Script", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 26px;
+}
+header .header-content .nav-bar-item {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+header .header-content .nav-bar-item:hover {
+  color: #C69B7B;
+}
+header .header-content .log-in-btn {
+  color: #fff;
+}
+header .header-content .log-in-btn:hover {
+  color: #C69B7B;
+}
+
+.intro {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Media/Other/intro-bg-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.intro-content {
+  margin-top: 115px;
+}
+.intro-title {
+  color: #fff;
+  font-size: 72px;
+  width: 35%;
+  line-height: 1;
+  margin-bottom: 150px;
+}
+.intro-btn {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+}
+.intro-btn:hover {
+  background: #C69B7B;
+  transition: 0.5s;
 }/*# sourceMappingURL=main.css.map */

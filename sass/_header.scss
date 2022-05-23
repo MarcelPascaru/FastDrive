@@ -1,0 +1,44 @@
+header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    .header-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+        }
+
+        .logo-text{
+            font-family: 'Kaushan Script',sans-serif;
+            color: #fff;
+            text-decoration: none;
+            font-size: 26px;
+        }
+
+        .nav-bar-item{
+            text-decoration: none;
+            color: #fff;
+            margin-right: 20px;
+        }
+
+        .nav-bar-item:hover{
+            color: $--color-secondary;
+        }
+
+        .log-in-btn{
+            color: #fff;
+        }
+
+        .log-in-btn:hover{
+            color: $--color-secondary;
+        }
+
+    }
+}

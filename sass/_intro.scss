@@ -1,0 +1,35 @@
+.intro{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../Media/Other/intro-bg-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    &-content{
+        margin-top: 115px;
+    }
+
+    &-title{
+        color: #fff;
+        font-size: 72px;
+        width: 35%;
+        line-height: 1;
+        margin-bottom: 150px;
+    }
+
+    &-btn{
+        padding: 5px 15px;
+        border-radius: 5px;
+        border: none;
+        background: #fff;
+        color: #000;
+        text-decoration: none;
+
+        &:hover{
+            background: $--color-secondary;
+            transition: .5s;
+        }
+
+    }
+
+}
