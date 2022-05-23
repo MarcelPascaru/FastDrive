@@ -14,7 +14,23 @@
         font-size: 72px;
         width: 35%;
         line-height: 1;
-        margin-bottom: 150px;
+        margin-bottom: 70px;
+    }
+
+    &-social-links{
+        margin: 20px 0;
+    }
+
+    &-social-item{
+        color: #fff;
+        font-size: 22px;
+        margin-right: 10px;
+
+        &:hover{
+            color: $--color-secondary;
+            transition: .5s;
+        }
+
     }
 
     &-btn{
@@ -24,6 +40,7 @@
         background: #fff;
         color: #000;
         text-decoration: none;
+        font-size: 16px;
 
         &:hover{
             background: $--color-secondary;
