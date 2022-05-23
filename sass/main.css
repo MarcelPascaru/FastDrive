@@ -11,6 +11,22 @@
   max-width: 1200px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: white;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: black;
+}
+
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   position: absolute;
@@ -91,6 +107,56 @@ header .header-content .log-in-btn:hover {
   font-size: 16px;
 }
 .intro-btn:hover {
+  background: #C69B7B;
+  transition: 0.5s;
+}
+
+.services {
+  margin: 40px 0;
+}
+.services-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.services-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services-item {
+  width: 30%;
+  text-align: center;
+}
+.services-icon {
+  font-size: 38px;
+}
+
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Media/Other/about-us-bg-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px 0;
+  padding: 50px 0;
+}
+.about-title {
+  margin-right: 15px;
+  color: #fff;
+}
+.about-text {
+  color: #fff;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+.about-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+}
+.about-btn:hover {
   background: #C69B7B;
   transition: 0.5s;
 }/*# sourceMappingURL=main.css.map */

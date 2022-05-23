@@ -1,0 +1,35 @@
+.about{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Media/Other/about-us-bg-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px 0;
+    padding: 50px 0;
+
+    &-title{
+        margin-right: 15px;
+        color: #fff;
+    }
+
+    &-text{
+        color: #fff;
+        margin: 20px 0;
+        line-height: 1.5;
+    }
+
+    &-btn{
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background: #fff;
+        color: #000;
+        text-decoration: none;
+
+        &:hover{
+            background: $--color-secondary;
+            transition: .5s;
+        }
+
+    }
+
+}

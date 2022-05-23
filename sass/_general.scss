@@ -12,3 +12,18 @@
     max-width: 1200px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .5rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: white;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: black;
+}
