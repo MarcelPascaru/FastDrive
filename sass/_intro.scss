@@ -1,5 +1,5 @@
 .intro{
-    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../Media/Other/intro-bg-min.jpg);
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Media/Other/intro-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,11 +14,20 @@
         font-size: 72px;
         width: 35%;
         line-height: 1;
-        margin-bottom: 70px;
+        margin-bottom: 25px;
+    }
+
+    &-text{
+        color: #fff;
+    }
+
+    &-author{
+        color: #fff;
+        font-style: italic;
     }
 
     &-social-links{
-        margin: 20px 0;
+        margin: 45px 0 20px 0;
     }
 
     &-social-item{
