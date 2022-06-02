@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -223,4 +224,113 @@ header .header-content .log-in:hover {
 .contact .form form .submit-btn:hover {
   background: #F0A500;
   transition: 0.5s;
+}
+
+.body {
+  background: #efefef;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#search-container {
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+}
+#search-container input {
+  background: transparent;
+  width: 40%;
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 2px solid #F0A500;
+}
+#search-container input:focus {
+  border: none;
+}
+#search-container button {
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 1px solid #F0A500;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #F0A500;
+}
+#search-container button:hover {
+  background: #F0A500;
+  color: #413F42;
+  transition: 0.5s;
+}
+#search-container .home-btn {
+  margin-left: 550px;
+  border: 1px solid #F0A500;
+  color: #F0A500;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+#search-container .home-btn:hover {
+  background: #F0A500;
+  color: #413F42;
+  transition: 0.5s;
+}
+
+#buttons .button-value {
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 1px solid #F0A500;
+  cursor: pointer;
+  color: #F0A500;
+}
+#buttons .button-value:hover {
+  background: #F0A500;
+  color: #413F42;
+  transition: 0.5s;
+}
+#buttons .active {
+  background: #F0A500;
+  color: #413F42;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 24px;
+  padding: 32px 0;
+}
+
+.card {
+  background-color: #fff;
+  max-width: 288px;
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 16px 32px 40px rgba(1, 2, 68, 0.08);
+}
+
+.image-container {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 240px;
+}
+
+.container {
+  padding-top: 16px;
+}
+.container h5 {
+  font-weight: 500;
+}
+
+.hide {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
